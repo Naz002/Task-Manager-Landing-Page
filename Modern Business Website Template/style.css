@@ -500,6 +500,9 @@ body {
 }
 
 @media (max-width:480px) {
+    .hero{
+        padding: 0 20px;
+    }
     .project-card {
         display: flex;
         flex-direction: column;
@@ -546,27 +549,27 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0;
+        padding: 0 20px;
     }
 
     .hero h1 {
         font-size: 20px;
-        text-align: center;
+        text-align: start;
     }
 
     .hero p {
         font-size: 15px;
-        text-align: center;
+        text-align: start;
     }
 
     .hero button {
         justify-content: center;
+        align-items: center;
         margin: 5px;
 
     }
 
     .image-container img {
-        width: 250px;
         height: 250px;
     }
 

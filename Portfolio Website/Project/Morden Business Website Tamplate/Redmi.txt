@@ -1,0 +1,52 @@
+===================================================================
+             STARTIFY WEBSITE TEMPLATE - DOCUMENTATION
+===================================================================
+
+Thank you for purchasing the Startify Template! 
+Here is a quick guide to help you customize and get your website live.
+
+-------------------------------------------------------------------
+1. WHAT IS INCLUDED IN THIS ZIP
+-------------------------------------------------------------------
+- index.html   -> The main page structure and content.
+- style.css    -> The styles, fonts, and design layout.
+- assets/      -> Images, icons, and graphics used in the template.
+
+-------------------------------------------------------------------
+2. HOW TO EDIT THE CONTENT
+-------------------------------------------------------------------
+- To change text, links, or colors, open the files in a code editor 
+  such as VS Code, Sublime Text, or even basic Notepad.
+- Save your changes and refresh your browser to see the update.
+
+-------------------------------------------------------------------
+3. HOW TO ACTIVATE THE CONTACT FORM (Web3Forms)
+-------------------------------------------------------------------
+Your template comes with a built-in contact form that sends messages
+directly to your personal email without needing any backend code. 
+
+To set it up:
+1. Go to https://web3forms.com (It is 100% free).
+2. Enter your email address to instantly receive your private Access Key.
+3. Open 'index.html' in your code editor.
+4. Look for the following line inside the <form> tags:
+   
+   <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+
+5. Replace "YOUR_ACCESS_KEY_HERE" with the Access Key sent to your email.
+6. Save the file. Your form is now fully active!
+
+-------------------------------------------------------------------
+4. HOW TO REDIRECT USERS AFTER THEY SUBMIT THE FORM
+-------------------------------------------------------------------
+If you want to send users to a specific "Thank You" page after they
+send a message, add this line inside the <form> tags of index.html:
+
+   <input type="hidden" name="redirect" value="https://yourwebsite.com/thank-you.html">
+
+Simply replace the value with your actual live URL.
+
+===================================================================
+   Need more help or customizations? 
+   Feel free to message the developer directly!
+===================================================================
