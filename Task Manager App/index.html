@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+           <h2>Task Flow</h2>
+           <ul>
+            <li id="all-btn">All Task</li>
+            <li id="pending-btn">Pending</li>
+            <li id="completed-btn">Completed</li>
+           </ul>
+        </aside>
+        <main class="main-content">
+           <input type="text" id="search-input" placeholder="Search Input">
+           <input type="date" id="due-date">
+           <button id="sort-date-btn">
+            Sort By Date
+           </button>
+           <select name="" id="priority">
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+           </select>
+           <button id="sort-by-priority">Sort By Priority</button>
+            <h1>My Task</h1>
+             
+            <div class="stats">
+                <div class="card all-task">
+                    <h3>All Task</h3>
+                    <span id="all-task">0</span>
+                </div>
+                <div class="card pending">
+                    <h3>Pending Task</h3>
+                    <span id="pending">0</span>
+                </div>
+                <div class=" card completed">
+                    <h3>Completed Task</h3>
+                    <span id="completed">0</span>
+                </div>
+            </div>
+            <div class="task-input">
+                <input type="text" id="task-input" placeholder="Add New Task">
+                <button id="add-btn">Add Task</button>
+                    </div>
+                <div class="task-list">
+                    <!-- <div class="task-card">
+                        <p>Completed Javascript Project</p>
+                        <div class="task-action">
+                             <button>✓</button>
+                              <button>🗑</button>
+                        </div>
+                    </div> -->
+                    <!-- task list will appear here -->
+                </div>
+        
+        </main>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

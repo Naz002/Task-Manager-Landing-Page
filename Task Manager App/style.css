@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background: #07122e;
+    color: white;
+}
+.container{
+    display: flex;
+    min-height: 100vh;
+}
+.sidebar{
+    width: 250px;
+    padding: 2rem;
+}
+.sidebar ul{
+    list-style: none;
+    margin-top: 2rem;
+}
+.sidebar li{
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.main-content{
+        flex: 1;
+    display: flex;
+    flex-direction: column;
+     padding: 20px;
+     background: #1b2942;;
+}
+.task-input{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+
+}
+.task-input input{
+    flex: 1;
+    padding: 12px;
+}
+.task-input button{
+    padding: 12px 20px;
+    background: #7c4dff;
+}
+.task-list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+     justify-content: flex-start;
+    align-items: start;
+}
+.task-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    color: #7c4dff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    width: 300px;
+}
+.task-action {
+margin-left: 5px;
+
+}
+.task{
+    width: 450px;
+ background: white;
+        color: #7c4dff;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+.task.completed{
+    border: 3px solid black;
+    background: #22c55e;;
+    color:white;
+}
+.task.completed span {
+    text-decoration: line-through !important;
+}
+.stats{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.card{
+    width: 180px;
+    padding: 20px;
+    border-radius: 12px;
+}
+.all-task{
+    background: #7c4dff;
+}
+.pending{
+    background: orange;
+}
+.completed{
+    background: #22c55e;
+}
+.card h3{
+    margin-bottom: 10px;
+}
+.card span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.task-info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.task-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 170px;
+}
+.overdue{
+    border: 3px solid red;
+    background-color: #ffebeb;
+}
