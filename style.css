@@ -184,6 +184,12 @@ body {
     color: #fff;
     padding-bottom: 20px;
 }
+.hero-btn-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 
 .about {
     padding: 60px 20px;
@@ -233,8 +239,8 @@ body {
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
-    align-items: center;
-    gap: 2rem;
+    justify-content: center;
+    gap: 30px;
     padding: 2rem;
 }
 
@@ -556,6 +562,7 @@ textarea:hover {
 
     .card h3 {
         font-size: 20px;
+        padding:  0;
     }
 
     .tittle h2 {
@@ -576,5 +583,17 @@ textarea:hover {
 
     .about p {
         font-size: 13px;
+    }
+    .card{
+        width: 250px;
+        padding: 20px;
+    }
+    .card p{
+        padding: 2px 0;
+    }
+
+    .hero-btn-box{
+        display: flex;
+        flex-direction: column;
     }
 }
